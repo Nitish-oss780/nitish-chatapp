@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 import Home from './Pages/Home';
 import "./style.scss"
-import { BrowserRouter,Router,Routes, Route,Navigate} from "react-router-dom";
+import { BrowserRouter,Routes, Route,Navigate} from "react-router-dom";
 import {useContext} from "react";
 import {AuthContext} from "./context/AuthContext";
 
